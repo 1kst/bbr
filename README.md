@@ -2,26 +2,19 @@
 
 
 
-```html
-<!-- 添加一个按钮 -->
-<button id="copyButton">复制命令</button>
+`wget https://raw.githubusercontent.com/1kst/bbr/main/666.sh && bash 666.sh`
 
-<!-- JavaScript 代码 -->
+
+[复制命令](javascript:void(0)) <button onclick="copyToClipboard('wget https://raw.githubusercontent.com/1kst/bbr/main/666.sh && bash 666.sh')">点此复制</button>
+
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const copyButton = document.getElementById('copyButton');
-        const commandToCopy = 'wget https://raw.githubusercontent.com/1kst/bbr/main/666.sh && bash 666.sh';
-
-        copyButton.addEventListener('click', () => {
-            const textArea = document.createElement('textarea');
-            textArea.value = commandToCopy;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand('copy');
-            document.body.removeChild(textArea);
-            alert('命令已复制到剪贴板');
-        });
-    });
+    function copyToClipboard(text) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        alert('命令已复制到剪贴板');
+    }
 </script>
-
-
