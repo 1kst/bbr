@@ -33,7 +33,7 @@ else
 fi
 
 # 复制节点配置并覆盖Xrayr目录
-cp -r /root/xrayconfig/HK/* /etc/XrayR/
+cp -r /root/xrayconfig/TW/* /etc/XrayR/
 
 # Check if the copy was successful
 if [ $? -eq 0 ]; then
