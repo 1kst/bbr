@@ -33,7 +33,7 @@ else
 fi
 
 # 复制日本配置并覆盖Xrayr目录
-cp -r /root/xrayconfig/JP/* /etc/XrayR/
+cp -r /root/xrayconfig/HK/* /etc/XrayR/
 
 # Check if the copy was successful
 if [ $? -eq 0 ]; then
