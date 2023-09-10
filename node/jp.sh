@@ -32,7 +32,7 @@ else
   exit 1
 fi
 
-# 复制日本配置并覆盖Xrayr目录
+# 复制节点配置并覆盖Xrayr目录
 cp -r /root/xrayconfig/JP/* /etc/XrayR/
 
 # Check if the copy was successful
