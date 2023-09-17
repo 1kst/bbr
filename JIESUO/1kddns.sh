@@ -14,4 +14,4 @@ git clone "$repo_url" "$local_dir"
 chmod +x "$local_dir/sgjiesuo/sgddns.sh"
 
 # 添加定时任务
-(crontab -l ; echo "* * * * * $command_to_execute") | crontab -
+(crontab -l 2>/dev/null ; echo "* * * * * $command_to_execute") | crontab -
