@@ -7,8 +7,11 @@ curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/s
 wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh
 bash dnsmasq_sniproxy.sh --is
 
-# Pull AdGuardHome.yaml from GitHub
-wget -O /opt/AdGuardHome/AdGuardHome.yaml https://github.com/1kst/jiaoben/raw/main/sgjiesuo/AdGuardHome.yaml
+# Clone the private repository
+git clone https://github.com/1kst/jiaoben.git /tmp/jiaoben
+
+# Copy the AdGuardHome.yaml file to the AdGuardHome directory
+cp /tmp/jiaoben/sgjiesuo/AdGuardHome.yaml /opt/AdGuardHome/AdGuardHome.yaml
 
 # Log the output
 log_file="/var/log/script_log.txt"
