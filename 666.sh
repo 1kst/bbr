@@ -23,7 +23,7 @@ commands=("wget https://raw.githubusercontent.com/1kst/bbr/main/node/hk.sh && ba
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/us.sh && bash us.sh"
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/uk.sh && bash uk.sh"
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/au.sh && bash au.sh"
-          "wget https://raw.githubusercontent.com/1kst/bbr/main/node/au.sh && bash sg.sh")
+          "wget https://raw.githubusercontent.com/1kst/bbr/main/node/sg.sh && bash sg.sh")
 
 # 显示菜单
 while true; do
