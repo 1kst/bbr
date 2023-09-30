@@ -13,7 +13,9 @@ menu=("1. 安装香港节点"
       "6. 安装英国节点"
       "7. 安装澳洲节点"
       "8. 安装新加坡节点"
-      "9. 安装TTUS节点"
+      "9. 安装德国节点"
+      "10. 安装意大利节点"
+      "11. 安装TTUS节点"
       "0. 退出")
 
 # 脚本命令数组
@@ -25,6 +27,8 @@ commands=("wget https://raw.githubusercontent.com/1kst/bbr/main/node/hk.sh && ba
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/uk.sh && bash uk.sh"
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/au.sh && bash au.sh"
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/sg.sh && bash sg.sh"
+          "wget https://raw.githubusercontent.com/1kst/bbr/main/node/de.sh && bash de.sh"
+          "wget https://raw.githubusercontent.com/1kst/bbr/main/node/it.sh && bash it.sh"
           "wget https://raw.githubusercontent.com/1kst/bbr/main/node/ttus.sh && bash ttus.sh")
 
 # 显示菜单
